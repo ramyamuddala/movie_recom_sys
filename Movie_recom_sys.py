@@ -9,7 +9,7 @@ from surprise import accuracy
 from textblob import TextBlob
 from tabulate import tabulate  # Add this import
 
-API_KEY = "f6d0bb99654ffdb2933158f13f6b28ff"
+API_KEY = "Your Api Key"
 url = f"https://api.themoviedb.org/3/movie/popular?api_key={API_KEY}"
 response = requests.get(url).json()
 movies = response['results']
